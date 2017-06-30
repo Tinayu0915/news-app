@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+html, body {
+  height: 100%;
+  font-size: 62.5%;
+  font-family: 'Microsoft Yahei','iconfont'; }
+
+a {
+  text-decoration: none; }
+
+ul li {
+  list-style: none; }
+
+input {
+  border: none;
+  outline: none; }
+
+.clearFix:after {
+  content: '.';
+  height: 0;
+  visibility: hidden;
+  clear: both; }

@@ -1,0 +1,141 @@
+@import url(public.css);
+@import url(header_footer.css);
+.register-wrapper {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background: #f3f5f4;
+  overflow: hidden; }
+  .register-wrapper .register {
+    width: 90%;
+    height: 100%;
+    margin: 40px auto 0 auto;
+    position: relative;
+    font-size: 14px;
+    font-size: 1.4rem; }
+    .register-wrapper .register .register-con {
+      width: 100%;
+      height: 20px;
+      line-height: 20px;
+      color: #000;
+      font-size: 1.8rem;
+      position: relative; }
+      .register-wrapper .register .register-con .register_tit {
+        width: 50%;
+        height: 2rem;
+        position: absolute;
+        left: 50%;
+        top: 0;
+        margin-left: -25%;
+        text-align: center; }
+    .register-wrapper .register .input_tip_wrapper {
+      width: 100%;
+      height: 3rem;
+      margin-top: 3rem; }
+      .register-wrapper .register .input_tip_wrapper .input_tip {
+        width: 30%;
+        font-size: 1.2rem;
+        color: #333;
+        line-height: 30px;
+        text-align: center;
+        float: left; }
+      .register-wrapper .register .input_tip_wrapper .input_tip:nth-child(even) {
+        width: 5%; }
+      .register-wrapper .register .input_tip_wrapper .input_tip:nth-child(1) {
+        color: #f3a08e; }
+    .register-wrapper .register .input_num_wrapper, .register-wrapper .register .input_code_wrapper, .register-wrapper .register .input_pw_wrapper {
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+      font-size: 1.2rem;
+      margin-top: 4rem;
+      border-bottom: 1px solid #ccc; }
+      .register-wrapper .register .input_num_wrapper .input_num, .register-wrapper .register .input_code_wrapper .input_num, .register-wrapper .register .input_pw_wrapper .input_num, .register-wrapper .register .input_code_wrapper .input_code, .register-wrapper .register .input_pw_wrapper .input_pw {
+        width: 90%;
+        height: 2rem;
+        line-height: 2rem;
+        float: left;
+        background: transparent; }
+    .register-wrapper .register .input_delete {
+      color: #ccc;
+      font-size: 1.6rem;
+      float: right; }
+    .register-wrapper .register .input_code_wrapper {
+      overflow: hidden;
+      display: none; }
+      .register-wrapper .register .input_code_wrapper .input_code {
+        width: 40%;
+        height: 3rem;
+        line-height: 3rem;
+        float: left; }
+    .register-wrapper .register .code_shower {
+      position: fixed;
+      left: 45%;
+      top: 18rem;
+      color: limegreen; }
+    .register-wrapper .register .code_send {
+      width: 45%;
+      height: 3rem;
+      background: #f3a08e;
+      color: #fff;
+      border-radius: 0.5rem;
+      -webkit-border-radius: 0.5rem;
+      -ms-border-radius: 0.5rem;
+      -o-border-radius: 0.5rem;
+      -moz-border-radius: 0.5rem;
+      float: right;
+      margin-right: 0;
+      margin-bottom: 0.4rem;
+      text-align: center;
+      line-height: 3rem; }
+    .register-wrapper .register .code_send.a {
+      background: #e94220; }
+    .register-wrapper .register .input_pw_wrapper {
+      border: none;
+      display: none; }
+      .register-wrapper .register .input_pw_wrapper .input_pw {
+        width: 100%;
+        border-bottom: 1px solid #ccc; }
+      .register-wrapper .register .input_pw_wrapper .input_pw:nth-child(2) {
+        margin-top: 2rem; }
+    .register-wrapper .register .code_get, .register-wrapper .register .code_submit, .register-wrapper .register .click_submit {
+      width: 100%;
+      height: 4rem;
+      text-align: center;
+      line-height: 4rem;
+      background: #f3a08e;
+      color: #fff;
+      margin: 3rem auto 0 auto;
+      border-radius: 0.5rem;
+      -webkit-border-radius: 0.5rem;
+      -ms-border-radius: 0.5rem;
+      -o-border-radius: 0.5rem;
+      -moz-border-radius: 0.5rem; }
+    .register-wrapper .register .code_get.a, .register-wrapper .register .a.code_submit, .register-wrapper .register .a.click_submit {
+      background: #e94220; }
+    .register-wrapper .register .code_submit {
+      display: none; }
+    .register-wrapper .register .code_submit.a {
+      background: #e94220; }
+    .register-wrapper .register .click_submit {
+      display: none; }
+    .register-wrapper .register .click_submit.a {
+      background: #e94220; }
+    .register-wrapper .register .submitted_tip {
+      font-size: 1rem;
+      color: #666;
+      line-height: 3rem; }
+    .register-wrapper .register .code_get_pop, .register-wrapper .register .code_submit_pop, .register-wrapper .register .submit_pop_error, .register-wrapper .register .submit_pop, .register-wrapper .register .submitted_pop, .register-wrapper .register .submit_style_error {
+      width: 70%;
+      height: 5rem;
+      color: #fff;
+      text-align: center;
+      line-height: 5rem;
+      border-radius: 0.5rem;
+      -webkit-border-radius: 0.5rem;
+      -ms-border-radius: 0.5rem;
+      -o-border-radius: 0.5rem;
+      -moz-border-radius: 0.5rem;
+      background: #454545;
+      display: none;
+      margin: 3rem auto 0 auto; }

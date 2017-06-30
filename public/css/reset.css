@@ -1,0 +1,150 @@
+@import url(public.css);
+@import url(header_footer.css);
+.reset-wrapper {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background: #f3f5f4;
+  overflow: hidden; }
+  .reset-wrapper .reset {
+    width: 90%;
+    height: 100%;
+    margin: 40px auto 0 auto;
+    position: relative;
+    font-size: 14px;
+    font-size: 1.4rem; }
+    .reset-wrapper .reset .reset_con {
+      width: 100%;
+      height: 20px;
+      line-height: 20px;
+      color: #000;
+      font-size: 1.8rem;
+      position: relative; }
+      .reset-wrapper .reset .reset_con .reset_tit {
+        width: 50%;
+        height: 2rem;
+        position: absolute;
+        left: 50%;
+        top: 0;
+        margin-left: -25%;
+        text-align: center; }
+    .reset-wrapper .reset .reset_tip_wrapper {
+      width: 100%;
+      height: 3rem;
+      margin-top: 3rem; }
+      .reset-wrapper .reset .reset_tip_wrapper .reset_tip {
+        font-size: 1.2rem;
+        color: #333;
+        line-height: 30px;
+        text-align: center;
+        float: left; }
+      .reset-wrapper .reset .reset_tip_wrapper .reset_tip:nth-child(even) {
+        width: 5%; }
+      .reset-wrapper .reset .reset_tip_wrapper .reset_tip:nth-child(1) {
+        width: 35%;
+        color: #f3a08e; }
+      .reset-wrapper .reset .reset_tip_wrapper .reset_tip:nth-child(3) {
+        width: 30%; }
+      .reset-wrapper .reset .reset_tip_wrapper .reset_tip:nth-child(5) {
+        width: 20%; }
+    .reset-wrapper .reset .reset_inp1_wrapper, .reset-wrapper .reset .reset_inp2_wrapper, .reset-wrapper .reset .reset_inp3_wrapper {
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+      font-size: 1.2rem;
+      margin-top: 4rem;
+      border-bottom: 1px solid #ccc; }
+      .reset-wrapper .reset .reset_inp1_wrapper .reset_inp1, .reset-wrapper .reset .reset_inp2_wrapper .reset_inp1, .reset-wrapper .reset .reset_inp3_wrapper .reset_inp1, .reset-wrapper .reset .reset_inp2_wrapper .reset_inp2, .reset-wrapper .reset .reset_inp3_wrapper .reset_inp3, .reset-wrapper .reset .reset_inp3_wrapper .reset_inp4 {
+        width: 90%;
+        height: 2rem;
+        line-height: 2rem;
+        float: left;
+        background: transparent; }
+    .reset-wrapper .reset .reset_delete {
+      color: #ccc;
+      font-size: 1.6rem;
+      float: right; }
+    .reset-wrapper .reset .reset_inp2_wrapper {
+      overflow: hidden;
+      display: none; }
+      .reset-wrapper .reset .reset_inp2_wrapper .reset_inp2 {
+        width: 40%;
+        height: 3rem;
+        line-height: 3rem;
+        float: left; }
+    .reset-wrapper .reset .reset_code_shower {
+      position: fixed;
+      left: 45%;
+      top: 18rem;
+      color: limegreen; }
+    .reset-wrapper .reset .reset_code_send {
+      width: 45%;
+      height: 3rem;
+      background: #f3a08e;
+      color: #fff;
+      border-radius: 0.5rem;
+      -webkit-border-radius: 0.5rem;
+      -ms-border-radius: 0.5rem;
+      -o-border-radius: 0.5rem;
+      -moz-border-radius: 0.5rem;
+      float: right;
+      margin-right: 0;
+      margin-bottom: 0.4rem;
+      text-align: center;
+      line-height: 3rem; }
+    .reset-wrapper .reset .reset_code_send.a {
+      background: #e94220; }
+    .reset-wrapper .reset .reset_inp3_wrapper {
+      border: none;
+      display: none; }
+      .reset-wrapper .reset .reset_inp3_wrapper .reset_inp3, .reset-wrapper .reset .reset_inp3_wrapper .reset_inp4 {
+        width: 100%;
+        border-bottom: 1px solid #ccc; }
+      .reset-wrapper .reset .reset_inp3_wrapper .reset_inp4 {
+        margin-top: 2rem; }
+      .reset-wrapper .reset .reset_inp3_wrapper .reset_pwd_icon1, .reset-wrapper .reset .reset_inp3_wrapper .reset_pwd_icon2 {
+        font-size: 1.6rem;
+        float: right;
+        line-height: 3.5rem;
+        display: none; }
+    .reset-wrapper .reset .reset_tab1, .reset-wrapper .reset .reset_tab2, .reset-wrapper .reset .reset_tab3 {
+      width: 100%;
+      height: 4rem;
+      text-align: center;
+      line-height: 4rem;
+      background: #f3a08e;
+      color: #fff;
+      margin: 3rem auto 0 auto;
+      border-radius: 0.5rem;
+      -webkit-border-radius: 0.5rem;
+      -ms-border-radius: 0.5rem;
+      -o-border-radius: 0.5rem;
+      -moz-border-radius: 0.5rem; }
+    .reset-wrapper .reset .reset_tab1.a, .reset-wrapper .reset .a.reset_tab2, .reset-wrapper .reset .a.reset_tab3 {
+      background: #e94220; }
+    .reset-wrapper .reset .reset_tab2 {
+      display: none; }
+    .reset-wrapper .reset .reset_tab2.a {
+      background: #e94220; }
+    .reset-wrapper .reset .reset_tab3 {
+      display: none; }
+    .reset-wrapper .reset .reset_tab3.a {
+      background: #e94220; }
+    .reset-wrapper .reset .reset_style_pop, .reset-wrapper .reset .reset_code_pop, .reset-wrapper .reset .reset_unregistered_pop, .reset-wrapper .reset .reset_pwd1_pop, .reset-wrapper .reset .reset_pwd2_pop, .reset-wrapper .reset .reset_error_pop {
+      width: 70%;
+      height: 5rem;
+      color: #fff;
+      text-align: center;
+      line-height: 5rem;
+      border-radius: 0.5rem;
+      -webkit-border-radius: 0.5rem;
+      -ms-border-radius: 0.5rem;
+      -o-border-radius: 0.5rem;
+      -moz-border-radius: 0.5rem;
+      background: #454545;
+      display: none;
+      margin: 3rem auto 0 auto; }
+    .reset-wrapper .reset .unregistered_tip {
+      font-size: 1rem;
+      color: #666;
+      line-height: 3rem; }
